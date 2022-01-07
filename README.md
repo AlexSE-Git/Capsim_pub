@@ -16,6 +16,6 @@ browser without installing the app)
 ![Main view](/images/main.png)
 
 ## Demo videos
-[Basic features](https://www.bilibili.com/video/BV1F5411L7To)
+[Basic features](https://www.bilibili.com/video/BV1F5411L7To){:target="_blank"}
 
-[New features in 0.4.0](https://www.bilibili.com/video/BV17y4y1z73P)
+[New features in 0.4.0](https://www.bilibili.com/video/BV17y4y1z73P){:target="_blank"}
