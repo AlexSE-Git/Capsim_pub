@@ -17,7 +17,7 @@ browser without installing the app)
 ## Main view:
 ![Main view](/images/main.png)
 
-## Demo videos
+## Demo videos on bilibili.com
 [Basic features](https://www.bilibili.com/video/BV1F5411L7To)
 
 [New features in 0.4.0](https://www.bilibili.com/video/BV17y4y1z73P)
