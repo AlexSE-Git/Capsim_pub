@@ -12,4 +12,4 @@ browser without installing the app)
 3. Custom text notes when sharing with friends to explain the advantages of each skill build.
 4. Detailed skill descriptions when mouse pointer hovering on the skill buttons.
 
-[Main view](/images/main.png)
+![Main view](/images/main.png)
