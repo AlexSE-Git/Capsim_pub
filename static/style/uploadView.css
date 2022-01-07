@@ -1,0 +1,78 @@
+body {
+  background-color: #4c77a1;
+  color: aliceblue;
+  font-family: Microsoft YaHei;
+  font-size: 20px;
+}
+
+#msgBox{
+    margin-top: 20px;
+}
+
+#link{
+  font-size: 15px;
+}
+
+#rLable {
+  display: block;
+}
+
+#Remark {
+  font-family: Microsoft YaHei;
+  background-color: aliceblue;
+  font-size: 20px;
+}
+
+#ShipType {
+  font-family: Microsoft YaHei;
+  background-color: aliceblue;
+  font-size: 15px;
+}
+
+#confirmBTN {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: Microsoft YaHei;
+  font-size: 25px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.2s;
+  background-color: #ff851b;
+  color: white;
+  border: 2px solid #ff851b;
+}
+
+#confirmBTN:hover {
+  background-color: white;
+  color: black;
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 130px;
+  font-family: Microsoft YaHei;
+  font-size: 25px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.2s;
+  background-color: #ff851b;
+  color: white;
+  border: 2px solid #ff851b;
+}
+
+button:enabled:hover {
+  background-color: white;
+  color: black;
+}
+
+button:disabled {
+    background-color:#ff851bad;
+    border: 2px solid #ff851bad;
+    cursor: not-allowed;
+  }

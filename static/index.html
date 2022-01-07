@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>舰长加点模拟器</title>
+    <link rel="stylesheet" href="./style/mainWindow.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h3 class="UItext" id="type-text">舰种：</h3>
+      <select class="select-css" name="舰种" id="shipType">
+        <option value="dd">驱逐舰</option>
+        <option value="ca">巡洋舰</option>
+        <option value="bb">战列舰</option>
+        <option value="cv">航母</option>
+      </select>
+    </div>
+
+    <div id="button-container">
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="0"
+        data-col="0"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="0"
+        data-col="1"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="0"
+        data-col="2"
+        name="button"
+      >
+        技能
+      </button>
+
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="0"
+        data-col="3"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="0"
+        data-col="4"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="0"
+        data-col="5"
+        name="button"
+      >
+        技能
+      </button>
+
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="1"
+        data-col="0"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="1"
+        data-col="1"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="1"
+        data-col="2"
+        name="button"
+      >
+        技能
+      </button>
+
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="1"
+        data-col="3"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="1"
+        data-col="4"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="1"
+        data-col="5"
+        name="button"
+      >
+        技能
+      </button>
+
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="2"
+        data-col="0"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="2"
+        data-col="1"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="2"
+        data-col="2"
+        name="button"
+      >
+        技能
+      </button>
+
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="2"
+        data-col="3"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="2"
+        data-col="4"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="2"
+        data-col="5"
+        name="button"
+      >
+        技能
+      </button>
+
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="3"
+        data-col="0"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="3"
+        data-col="1"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="3"
+        data-col="2"
+        name="button"
+      >
+        技能
+      </button>
+
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="3"
+        data-col="3"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="3"
+        data-col="4"
+        name="button"
+      >
+        技能
+      </button>
+      <button
+        class="skillBTN"
+        type="button"
+        data-row="3"
+        data-col="5"
+        name="button"
+      >
+        技能
+      </button>
+    </div>
+
+    <div id="detail"><p id="dT"></p></div>
+    
+    <div id="spContainer">
+      <h3 class="UItext" id="sp">技能点：21/21</h3>
+    </div>
+
+    <div id="funcBTNcontainer">
+      <button id="resetBTN" type="button" name="reset button">
+        重置
+      </button>
+      <button id="upBTN" type="button" name="upload button">
+        分享给朋友
+      </button>
+    </div>
+  </body>
+  <script>
+    // You can also require other files to run in this process
+    require("../dist/mainWindow.js");
+  </script>
+</html>

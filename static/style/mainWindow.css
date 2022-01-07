@@ -1,0 +1,112 @@
+@import "./select.css";
+
+body {
+  background-image: url('../img/wows.jpg');
+}
+
+#header {
+  margin-bottom: 20px;
+}
+
+.UItext {
+  color: white;
+}
+
+#type-text {
+  display: inline-block;
+}
+
+#spContainer {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#funcBTNcontainer {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#upBTN{
+  color:black;
+  transition-duration: 0.5s;
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+#upBTN:hover {
+  background-color:#FFDC00;
+}
+
+#sp {
+  text-align: left;
+  font-size: 30px;
+}
+
+#button-container {
+  margin: auto 5%;
+  display: grid;
+  gap: 20px 20px;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+  align-content: center;
+}
+
+button {
+  font-family: Microsoft YaHei;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.skillBTN {
+  transition-duration: 0.2s;
+  background-color: dodgerblue;
+  color: white;
+  border: 2px solid dodgerblue;
+  font-size: 20px;
+}
+
+.skillBTN:enabled:hover {
+  background-color:white;
+  color:black;
+}
+
+.skillBTN:disabled {
+  background-color:white;
+  color:black;
+  cursor: not-allowed;
+}
+
+#resetBTN {
+  transition-duration: 0.2s;
+  background-color:  red;
+  color:black;
+  border: 2px solid red;
+  font-size: 30px;
+}
+
+#resetBTN:hover {
+  background-color:white;
+  color:black;
+}
+
+#detail {
+  background-color: rgba(24, 93, 161, 0.8);
+  padding: 20px 50px;
+  margin-top: 20px;
+  width: 50%;
+  height: 150px;
+  float: right;
+}
+
+#dT {
+  font-family: Microsoft YaHei;
+  font-size: 25px;
+  color: white;
+}
+
+
+

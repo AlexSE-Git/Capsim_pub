@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>分享给朋友</title>
+    <link rel="stylesheet" href="./style/uploadView.css" />
+  </head>
+  <body>
+    <div id="msgBox"><p id="msg"></p><p id="link"></p></div>
+    <form id="myform">
+      <div>
+        <label for="Remark" id="rLable">备注: </label>
+        <textarea id="Remark" cols="40" rows="5" maxlength="500" required>永远的神</textarea>
+      </div>
+      <div>
+        <label for="ShipType">战舰种类: </label>
+        <input type="text" id="ShipType" readonly />
+      </div>
+      <div>
+        <input type="submit" id="confirmBTN" value="确认上传" />
+      </div>
+    </form>
+  </body>
+  <script>
+    // You can also require other files to run in this process
+    require("../dist/uploadView.js");
+  </script>
+</html>

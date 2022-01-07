@@ -1,0 +1,50 @@
+{
+  "name": "cssim",
+  "productName": "cssim",
+  "version": "0.4.0",
+  "description": "战舰世界舰长加点模拟器",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && electron-forge start",
+    "package": "electron-forge package",
+    "make": "tsc && electron-forge make --platform=win32",
+    "publish": "electron-forge publish",
+    "lint": "eslint --ext .ts ."
+  },
+  "keywords": [],
+  "author": {
+    "name": "Alex",
+    "email": "alexsepublic@outlook.com"
+  },
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {"asar": true},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "cssim",
+            "setupIcon": "/home/alex/Documents/CSsim/icon.ico"
+          }
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.54",
+    "@electron-forge/maker-deb": "^6.0.0-beta.54",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.54",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
+    "@electron-forge/maker-zip": "^6.0.0-beta.54",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "electron": "10.1.5",
+    "eslint": "^7.12.1",
+    "eslint-plugin-import": "^2.22.1",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
