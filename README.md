@@ -4,6 +4,8 @@ game produced by Wargaming)
 
 *Cross-platform desktop apps powered by Electron*
 
+*Language supported: Chinese*
+
 ## Main Features:
 1. Easy-to-use planner with warnings against invalid operations (exceeded skill points, skip skill
 levels, etc.)
@@ -19,3 +21,9 @@ browser without installing the app)
 [Basic features](https://www.bilibili.com/video/BV1F5411L7To)
 
 [New features in 0.4.0](https://www.bilibili.com/video/BV17y4y1z73P)
+
+## Download the app
+
+[OneDrive share link](https://1drv.ms/u/s!Ah9nDxNlUCFdt0W60KgBT5G-kY3k?e=gKkers)
+
+***Unfortunately, the "share to friends" button is currently not working due to server issues, but you can test the offline features***
